@@ -1,7 +1,7 @@
 {
   "branch_id": "B001",
   "current_cycle": 5,
-  "next_role": "external_evidence_researcher",
+  "next_role": "alternative_theorist",
   "status": "ready",
   "research_objective": "Test whether a role-separated multi-agent research loop reduces unsupported claims and cumulative reasoning error relative to repeated single-agent prompting under fixed inference compute."
 }
