@@ -6,9 +6,10 @@ Under a fixed inference-compute budget, which design features of a role-separate
 ## Branch and loop
 - Test branch ID: `B001`
 - Ordinary role order: Explorer → Critic → Internal Evidence Researcher → External Evidence Researcher → Alternative Theorist → Integrator → Cycle Archivist.
+- Control role values: `explorer` → `critic` → `internal_evidence_researcher` → `external_evidence_researcher` → `alternative_theorist` → `integrator` → `cycle_archivist`.
 - Each role is a fresh ChatGPT conversation.
 - Each cycle is a complete seven-role research loop.
-- The Cycle Archivist alone advances the cycle counter.
+- The Cycle Archivist alone advances the numeric cycle counter.
 
 ## Required distinctions
 Always distinguish:
@@ -30,6 +31,7 @@ Never convert repetition, confidence, eloquence, or agreement between agents usi
 
 ## File and isolation rules
 - Repository: `Salinator513/Test`
+- Work on the default branch `main`.
 - Current cycle is stored in `branches/B001/state/control.json`.
 - Current accepted branch state is stored in `branches/B001/state/current_state.md`.
 - A role may open only the files explicitly allowlisted in its prompt.
@@ -37,7 +39,8 @@ Never convert repetition, confidence, eloquence, or agreement between agents usi
 - Never inspect other repository files, branches, issues, pull requests, commit history, or prior chats unless the prompt explicitly permits it.
 - Never modify another role’s output.
 - If a required predecessor file is absent, stop without improvising.
-- If the authorized output file already exists, do not overwrite it; report that the role appears already completed.
+- If the authorized output file already exists and the control file still names the current role, verify the saved output and repair only the control transition; do not regenerate the role’s work.
+- If the authorized output exists and control already names a later role, report that the role is already complete.
 
 ## Output discipline
 - Save the complete final response to the authorized GitHub file or files.
@@ -45,3 +48,5 @@ Never convert repetition, confidence, eloquence, or agreement between agents usi
 - Refer to prior claims and files exactly.
 - State uncertainty and missing evidence directly.
 - Do not claim that saving succeeded unless the GitHub write actually succeeded.
+- Advance `next_role` only after the role output has been saved successfully.
+- The Cycle Archivist updates accepted state and summaries first, then advances the cycle counter last; the control update acts as the completion marker.
