@@ -1,0 +1,7 @@
+{
+  "branch_id": "B001",
+  "current_cycle": 1,
+  "next_role": "explorer",
+  "status": "ready",
+  "research_objective": "Under a fixed inference-compute budget, which design features of a role-separated multi-agent research loop most reduce unsupported claims and cumulative reasoning errors compared with repeated single-agent prompting?"
+}
