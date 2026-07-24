@@ -1,0 +1,9 @@
+# C0005 Shallow Summary
+
+C0005 investigated whether the External Evidence Researcher → Alternative Theorist handoff is measurable enough to support a later direct claim–support experiment. No branch-local measurability audit was performed: the authorized internal corpus lacked raw prior handoff outputs, a reference inventory, independent duplicate coding, fixed denominators, and a held-out audit set.
+
+The sixteen-source external methods ledger shows that bounded atomic claims, content-bearing evidence spans, relation labels, separate verification, multidimensional annotation, and observable output correspondence can be operationalized. It also shows that evidence is often multi-sentence, multi-paragraph, multi-source, overlapping, or qualification dependent; exact boundaries can be unstable; agreement is prevalence- and metric-sensitive; and filtering can create a reliable but unrepresentative residue. No retained endpoint identifies causal evidence use.
+
+The main state change is methodological. The accepted endpoint is **observable downstream relation-preserving incorporation**, not semantic use or reconstruction. Apparatus development must be separated from held-out audit, with corpus, denominators, relation class, exclusions, identity dimensions, metrics, thresholds, and failure actions frozen prospectively. A one-claim/one-evidence primary unit is allowed only for an eligible subset, while broader many-to-many structure and exclusion losses remain visible.
+
+The strongest unresolved objection is coverage and role mismatch: a reliable atomic core may omit the qualification-rich and synthesis-heavy work central to the Alternative Theorist. The current direction is to specify a fully prospective, independently coded pilot before any effectiveness test.
