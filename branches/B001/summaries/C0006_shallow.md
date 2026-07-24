@@ -1,0 +1,9 @@
+# C0006 Shallow Summary
+
+C0006 investigated how to count and represent the External Evidence Researcher → Alternative Theorist handoff before any direct-support measurability audit. The cycle began with a proposed denominator hierarchy and coverage gate, but the Critic showed that the relevant objects are cross-cutting rather than cleanly nested and that no numerical gate is meaningful without a frozen later decision.
+
+The most important evidence came from a twenty-source component-method ledger. Crossed-membership models support non-nested mappings; structured annotation methods preserve spans, edges, sets, and groups; TREC pooling illustrates procedure-bounded candidate universes; selective prediction exposes quality–coverage tradeoffs; dependence and sampling methods require a declared generalization target and frame; decision methods tie thresholds to consequences; and reporting standards keep exclusions visible. None validates B001 prevalence, role relevance, a representative factual core, or a numeric threshold.
+
+The main state change is a linked denominator-and-observability lattice with named ratios, parallel edge/group views, explicit candidate-generation procedures, and separate ordinary-artifact, offline-annotation, and checkpoint-created objects. Gate specification is deferred until the downstream experiment, claim scope, population, inferential unit, codebook, rubric, resources, and false-passage costs are frozen.
+
+The strongest unresolved objection is that apparatus construction, filtering, metrics, or clustering may create the apparent measurable core while excluding central qualification-rich or nonfactual work. The current direction is to freeze the target decision and instantiate the linked system on an authorized development corpus before any held-out audit.
